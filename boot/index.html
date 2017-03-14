@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="dist/css/reset.css">
+	<link rel="stylesheet" href="dist/index.css">
+</head>
+<body>
+<div class="container-fluid" style="padding-left:0;padding-right:0;">
+	<nav class="navbar navbar-default" role="navigation"> 
+		<div class="container-fluid fluid">
+			<div class="navbar-header"> 
+			 	<a class="navbar-brand" href="#" style="margin-left:50px;">360用户画像信息系统</a> 
+			</div> 
+			<div>
+			 	<ul class="nav navbar-nav"> 
+			 		<li class="active">
+			 			<a href="#" style="background:#0097cf">首页</a>
+			 		</li> 
+			 		<li>
+			 			<a href="#">信息查询</a>
+			 		</li> 
+			 		<li class="active">
+			 			<a href="#" style="background:#0097cf">用户筛选</a>
+			 		</li> 
+			 		<li>
+			 			<a href="#">后台管理</a>
+			 		</li> 
+			 	</ul> 
+			</div> 
+			<div class="nav navbar-nav navbar-text navbar-right" style="color:#fff;">
+				<i class="glyphicon glyphicon-user"></i>
+				wanggang,工作人员
+				<span>退出</span>
+			</div>
+		</div> 
+	</nav>
+</div>
+<div class="container">
+	<div class="text col-md-12">
+		<div class="txt col-md-3">360账号&M2</div>
+		<div class="int col-md-9">
+			<input type="text">
+			<button class="btn btn-warning">查询</button>
+		</div>
+	</div>
+	<div class="main col-md-12">
+		<div class="left col-md-4">
+			<dl>
+				<dt><img src="images/2_03.jpg" alt=""></dt>
+				<dd class="text-center">刘哼</dd>
+			</dl>
+		</div>
+		<div class="center col-md-4">
+			<p style="margin:0 0 0px">系统测评</p>
+			<ul class="uls" style="list-style:none;">
+				<li>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+				</li>
+				<li>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+				</li>
+				<li>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+				</li>
+				<li>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+				</li>
+				<li>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+					<span style="font-size:12px;">微博加V</span>
+				</li>
+			</ul>
+		</div>
+		<div class="right col-md-4">
+			<p style="margin:0 0 0px">编辑</p>
+			<input type="text" id="text" style="margin-top:3px;">
+			<ul class="uls" style="list-style:none;">
+				<li>微博加V <span>x</span></li>
+				<li>微博加V <span>x</span></li>
+				<li>微博加V <span>x</span></li>
+				<li>微博加V <span>x</span></li>
+				<li>微博加V <span>x</span></li>
+				<li>微博加V <span>x</span></li>
+				<li>微博加V <span>x</span></li>
+				<li class="on" id="add">添加</li>
+			</ul>
+		</div>
+	</div>
+	<div class="basic col-md-12">
+		<p>基本信息</p>
+		<table class="table">
+		   	<tbody>
+		     	<tr>
+		       	  	<td>姓名 刘哼</td>
+		         	<td>QQ 876541234</td>
+		      	</tr>
+		      	<tr>
+		       	 	 <td>性别 女</td>
+		        	 <td>活跃地区 北京</td>
+		     	</tr>
+		     	<tr>
+		       	  	<td>邮箱 jishu@sina.com</td>
+		         	<td>地址 北京市丰台区</td>
+		      	</tr>
+		      	<tr>
+		       	 	 <td>手机 13876541234</td>
+		     	</tr>
+		     	<tr>
+		       	 	 <td>身份证 4809876198109212345</td>
+		     	</tr>
+		   	</tbody>
+	   </table>
+	</div>
+	<div class="device col-md-12">
+		<p>设备信息</p>
+		<table class="table">
+		   	<tbody>
+		     	<tr>
+		       	  	<td>手机 278651</td>
+		         	<td>贴吧 278651</td>
+		      	</tr>
+		      	<tr>
+		       	 	 <td>M2 嗯哼</td>
+		        	 <td>飞信 123765531</td>
+		     	</tr>
+		     	<tr>
+		       	  	<td>PC信息 13876541234</td>
+		         	<td>360论坛</td>
+		      	</tr>
+		      	<tr>
+		       	 	 <td>MID 13876541234</td>
+		     	</tr>
+		   	</tbody>
+	   </table>
+	</div>
+	<div class="numb col-md-12">
+		<p>账号信息</p>
+		<table class="table">
+		   	<tbody>
+		     	<tr>
+		       	  	<td>用户名 嗯哼</td>
+		         	<td>登录邮箱 jishu@sina.com</td>
+		         	<td>QID j23144</td>
+		      	</tr>
+		      	<tr>
+		       	 	 <td>昵称 嗯哼</td>
+		        	 <td>保密邮箱 jishu@sina.com</td>
+		        	 <td>手机号 13876541234</td>
+		     	</tr>
+		   	</tbody>
+	   </table>
+	</div>
+	<div class="feedback">
+		<h3>用户反馈信息</h3>
+		<p class="text-center">最常反馈问题的TOP10产品</p>
+		<div class="box">
+			<dl>
+				<dt><img src="images/3_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/4_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/5_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/6_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/7_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/8_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/9_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/10_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/11_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/12_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+		</div>
+	</div>
+	<div class="biao">
+		<p class="text-center">最常反馈问题的TOP10产品</p>
+		<table class="table table-bordered">
+		   	<tbody>
+		     	<tr>
+		       	  	<td>序号</td>
+		         	<td>1</td>
+		         	<td>2</td>
+		         	<td>3</td>
+		         	<td>4</td>
+		         	<td>5</td>
+		         	<td>6</td>
+		         	<td>7</td>
+		         	<td>8</td>
+		         	<td>9</td>
+		         	<td>10</td>
+		      	</tr>
+		      	<tr>
+		       	 	 <td>产品</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		     	</tr>
+		     	<tr>
+		       	 	 <td>功能</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		     	</tr>
+		   	</tbody>
+	   </table>
+	</div>
+	<div class="feedback1">
+		<h3>用户反馈信息</h3>
+		<p class="text-center">最常反馈问题的TOP10产品</p>
+		<div class="box">
+			<dl>
+				<dt><img src="images/3_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/4_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/5_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/6_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/7_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/8_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/9_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/10_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/11_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+			<dl>
+				<dt><img src="images/12_03.jpg" alt=""></dt>
+				<dd>手机卫士</dd>
+			</dl>
+		</div>
+	</div>
+	<div class="biao1">
+		<p class="text-center">最常反馈问题的TOP10产品</p>
+		<table class="table table-bordered">
+		   	<tbody>
+		     	<tr>
+		       	  	<td>序号</td>
+		         	<td>1</td>
+		         	<td>2</td>
+		         	<td>3</td>
+		         	<td>4</td>
+		         	<td>5</td>
+		         	<td>6</td>
+		         	<td>7</td>
+		         	<td>8</td>
+		         	<td>9</td>
+		         	<td>10</td>
+		      	</tr>
+		      	<tr>
+		       	 	 <td>产品</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		        	 <td>手机卫士</td>
+		     	</tr>
+		     	<tr>
+		       	 	 <td>功能</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		        	 <td>摇一摇</td>
+		     	</tr>
+		   	</tbody>
+	   </table>
+	</div>
+	<div class="mes">
+		<p>反馈渠道记录</p>
+		<table class="table table-bordered">
+		   	<tbody>
+		     	<tr>
+		       	  	<td>序号</td>
+		         	<td>日期</td>
+		         	<td>渠道</td>
+		         	<td>产品</td>
+		         	<td>内容</td>
+		      	</tr>
+		      	<tr>
+		       	 	<td>1</td>
+		         	<td>30160824</td>
+		         	<td>反馈平台</td>
+		         	<td>手机卫士</td>
+		         	<td>360安全卫士产品改进方案.doc</td>
+		     	</tr>
+		     	<tr>
+		       	 	<td>2</td>
+		         	<td>30160824</td>
+		         	<td>社区</td>
+		         	<td>手机卫士</td>
+		         	<td>360安全卫士产品改进方案.doc</td>
+		     	</tr>
+		     	<tr>
+		       	 	<td>3</td>
+		         	<td>30160824</td>
+		         	<td>400电话</td>
+		         	<td>手机卫士</td>
+		         	<td>360安全卫士产品改进方案.doc</td>
+		     	</tr>
+		     	<tr>
+		       	 	<td>4</td>
+		         	<td>30160824</td>
+		         	<td>邮箱</td>
+		         	<td>手机卫士</td>
+		         	<td>360安全卫士产品改进方案.doc</td>
+		     	</tr>
+		     	<tr>
+		       	 	<td>5</td>
+		         	<td>30160824</td>
+		         	<td>微博</td>
+		         	<td>手机卫士</td>
+		         	<td>360安全卫士产品改进方案.doc</td>
+		     	</tr>
+		     	<tr>
+		       	 	<td>6</td>
+		         	<td>30160824</td>
+		         	<td>社区</td>
+		         	<td>手机卫士</td>
+		         	<td>360安全卫士产品改进方案.doc</td>
+		     	</tr>
+		   	</tbody>
+	   </table>
+	</div>
+</div>	
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 100%; }
+
+.navbar-default {
+  background: #0097cf;
+  margin-bottom: 0px; }
+  .navbar-default .navbar-header .navbar-brand {
+    color: #fff; }
+
+.navbar li a {
+  color: #fff !important; }
+
+.navbar-default .navbar-text {
+  color: #fff;
+  margin-right: 10px; }
+
+.container {
+  height: auto; }
+  .container .text {
+    height: 50px; }
+    .container .text .txt {
+      height: 50px;
+      line-height: 50px;
+      float: left;
+      color: #0097cf; }
+    .container .text .int {
+      height: 50px;
+      float: left;
+      padding-top: 10px;
+      box-sizing: border-box; }
+      .container .text .int input {
+        border: 1px solid #dfdfe1;
+        border-radius: 5px; }
+  .container .main {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px; }
+    .container .main .left {
+      height: 100%;
+      float: left; }
+      .container .main .left dl {
+        width: 100%;
+        border: 1px solid #dfdfe1;
+        border-radius: 5px;
+        height: auto; }
+        .container .main .left dl dt {
+          width: 100%;
+          height: 180px; }
+          .container .main .left dl dt img {
+            width: 100%;
+            height: 100%; }
+        .container .main .left dl dd {
+          width: 100%;
+          height: 20px;
+          line-height: 20px; }
+    .container .main .center {
+      height: 100%;
+      border: 1px solid #dfdfe1;
+      border-radius: 5px;
+      float: left; }
+      .container .main .center p {
+        height: 30px;
+        line-height: 30px; }
+      .container .main .center .uls {
+        height: auto; }
+        .container .main .center .uls li {
+          padding: 5px 0;
+          box-sizing: border-box;
+          height: auto; }
+          .container .main .center .uls li span {
+            font-size: 12px; }
+    .container .main .right {
+      width: 30%;
+      height: 100%;
+      border: 1px solid #dfdfe1;
+      border-radius: 5px;
+      float: left;
+      overflow-y: auto;
+      margin-left: 20px; }
+      .container .main .right p {
+        height: 30px;
+        line-height: 30px;
+        color: #57aed9;
+        border-bottom: 1px solid #dfdfe1; }
+      .container .main .right .uls {
+        height: auto; }
+        .container .main .right .uls li {
+          height: auto;
+          padding: 5px;
+          box-sizing: border-box;
+          font-size: 12px;
+          float: left;
+          border: 1px solid #dfdfe1;
+          margin-left: 5px;
+          margin-top: 5px;
+          position: relative; }
+          .container .main .right .uls li span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: #f4c600;
+            text-align: center;
+            line-height: 10px;
+            color: #fff;
+            position: absolute;
+            right: -5px;
+            top: -5px; }
+        .container .main .right .uls .on {
+          border: 1px solid #0097cf;
+          color: #0097cf; }
+  .container .basic {
+    height: 225px;
+    margin-top: 10px; }
+    .container .basic p {
+      height: 30px;
+      line-height: 30px; }
+    .container .basic .table td {
+      border-top: none; }
+  .container .device {
+    height: 200px;
+    margin-top: 30px; }
+    .container .device p {
+      height: 30px;
+      line-height: 30px; }
+    .container .device .table td {
+      border-top: none; }
+  .container .numb {
+    height: 120px;
+    margin-top: 10px; }
+    .container .numb p {
+      height: 30px;
+      line-height: 30px; }
+    .container .numb .table td {
+      border-top: none; }
+  .container .feedback {
+    width: 100%;
+    height: 200px;
+    margin-top: 850px; }
+    .container .feedback h3 {
+      height: 50px;
+      line-height: 50px; }
+    .container .feedback .box {
+      width: 100%;
+      height: 100px;
+      margin-top: 30px; }
+      .container .feedback .box dl {
+        width: 10%;
+        float: left;
+        height: 70px; }
+        .container .feedback .box dl dt {
+          width: 100%;
+          text-align: center; }
+          .container .feedback .box dl dt img {
+            width: 50%; }
+        .container .feedback .box dl dd {
+          width: 100%;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          font-size: 12px; }
+  .container .biao {
+    height: 150px;
+    margin-top: 20px; }
+    .container .biao .pp {
+      height: 30px;
+      text-align: center; }
+    .container .biao table {
+      font-size: 12px;
+      text-align: center; }
+  .container .feedback1 {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px; }
+    .container .feedback1 h3 {
+      height: 50px;
+      line-height: 50px; }
+    .container .feedback1 .box {
+      width: 100%;
+      height: 100px;
+      margin-top: 30px; }
+      .container .feedback1 .box dl {
+        width: 10%;
+        float: left;
+        height: 70px; }
+        .container .feedback1 .box dl dt {
+          width: 100%;
+          text-align: center; }
+          .container .feedback1 .box dl dt img {
+            width: 50%; }
+        .container .feedback1 .box dl dd {
+          width: 100%;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          font-size: 12px; }
+  .container .biao1 {
+    height: 150px;
+    margin-top: 80px; }
+    .container .biao1 .pp {
+      height: 30px;
+      text-align: center; }
+    .container .biao1 table {
+      font-size: 12px;
+      text-align: center; }
+  .container .mes p {
+    height: 30px;
+    line-height: 30px; }
+  .container .mes table {
+    text-align: center; }
